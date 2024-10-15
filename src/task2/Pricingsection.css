@@ -1,0 +1,96 @@
+.Heading {
+  text-align: center;
+}
+
+.Heading h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.Heading p {
+  color: gray;
+  font-size: 20px;
+}
+
+.Pricing-Container {
+  width: 100%;
+  background-color: rgb(224, 233, 244);
+  padding: 50px 0;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pricing-card {
+  border: 1px solid #e6e6e6;
+  /* border-radius: 10px; */
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+  /* text-align: center; */
+  transition: all 0.3s ease;
+  background-color: white;
+  height: 550px;
+}
+
+
+.pricing-card:hover {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+}
+
+.pricing-card h3 {
+  font-size: 20px;
+  color: black;
+}
+
+.pricing-card h1 {
+  font-size: 50px;
+  color: red;
+}
+
+.pricing-card p {
+  color: grey;
+  margin-bottom: 20px;
+  line-height: 100px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  color: grey;
+}
+
+.pricing-card:hover h1,
+.pricing-card:hover h3,
+.pricing-card:hover p,
+.pricing-card:hover ul li {
+  color: white;
+}
+
+.pricing-card .button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  cursor: pointer;
+  /* border-radius: 25px; */
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  /* padding-top:5px; */
+
+}
+
+.pricing-card button:hover {
+  background-color: red;
+  color: white;
+}

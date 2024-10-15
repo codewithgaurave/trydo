@@ -1,0 +1,181 @@
+.slider {
+  position: relative;
+  width: 100%; /* Ensures the slider takes 100% width of its parent container */
+  height: 80vh;
+  overflow: hidden;
+  max-width: 100vw; /* Prevents overflow beyond the screen width */
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-content {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  color: white;
+  text-align: right;
+}
+
+.slide-content h2 {
+  font-size: 5vw;
+  margin: 0;
+}
+
+.slide-content p {
+  font-size: 2vw;
+}
+
+.contact-btn {
+  height: 40px;
+  width: 120px;
+  padding: 10px 20px;
+  background-color: #ff0058;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.prev,
+.next {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .slide-content h2 {
+    font-size: 7vw;
+  }
+  .slide-content p {
+    font-size: 3vw;
+  }
+  .contact-btn {
+    height: 40px;
+    width: 110px;
+  }
+
+  .prev,
+  .next {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slide-content {
+    bottom: 15%;
+    right: 5%;
+    text-align: center;
+  }
+
+  .slide-content h2 {
+    font-size: 8vw;
+  }
+
+  .slide-content p {
+    font-size: 4vw;
+  }
+
+  .prev,
+  .next {
+    height: 35px;
+    width: 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide-content {
+    bottom: 12%;
+    right: 5%;
+    text-align: center;
+  }
+
+  .slide-content h2 {
+    font-size: 9vw;
+  }
+
+  .slide-content p {
+    font-size: 4.5vw;
+  }
+
+  .contact-btn {
+    height: 35px;
+    width: 100px;
+  }
+
+  .prev,
+  .next {
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .slide-content {
+    bottom: 8%;
+    right: 3%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .slide-content h2 {
+    font-size: 10vw;
+  }
+
+  .slide-content p {
+    font-size: 5vw;
+  }
+
+  .contact-btn {
+    height: 30px;
+    width: 90px;
+    font-size: 3vw;
+  }
+
+  .prev,
+  .next {
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
+  }
+}

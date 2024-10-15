@@ -1,0 +1,63 @@
+.reach-us-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.reach-us-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.reach-us-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  background-color: #fcf3e8;
+  border-radius: 12px;
+  padding: 30px;
+  width: 180px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.card a {
+  color: #178d72;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}

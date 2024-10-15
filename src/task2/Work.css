@@ -1,0 +1,50 @@
+.stats-container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+  background: url(https://images.pond5.com/business-people-have-problem-discussing-footage-076964920_iconl.jpeg)
+    no-repeat center center/cover;
+  color: white;
+  z-index: 1;
+}
+
+.stats-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); 
+  z-index: -1;
+}
+
+.stat-box {
+  text-align: center;
+  color: white;
+  max-width: 250px;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.plus-sign {
+  font-size: 32px;
+  vertical-align: super;
+}
+
+.stat-box p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ccc;
+}

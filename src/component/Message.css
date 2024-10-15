@@ -1,0 +1,124 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  /* background-color: #f5ebe1; */
+}
+
+.contact-container {
+  display: flex;
+  background-color: #f5ebe1;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 1000px;
+  border-radius: 30px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left {
+  background: url(https://unistudio.co/demo/lexend/assets/images/template/hero-contact.jpg) no-repeat center center/cover;  
+  flex: 1;
+  position: relative;
+  background-color: #f5ebe1;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.testimonial-image {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.testimonial-quote {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 240px;
+  background-color: #33333319;
+  font-weight:bold ;
+}
+
+.testimonial-author {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fffefe;
+}
+
+.contact-right {
+  flex: 1;
+  padding: 30px;
+  background-color: #f5ebe1;
+}
+
+
+.contact-right p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group input {
+  width: 48%;
+  padding: 15px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.contact-form input {
+    width: 48%;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+
+.full-width {
+  width: 100%;
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.send-button {
+  background-color: #178d72;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #256929;
+}
+
+.alternative-contact {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.alternative-contact a {
+  color: #2e7d32;
+  text-decoration: none;
+}
